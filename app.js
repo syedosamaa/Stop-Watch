@@ -71,8 +71,6 @@ function resetTime(){
 
     showTime();
 }
-
-showTime();
         
 
  
