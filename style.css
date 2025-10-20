@@ -91,9 +91,9 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 42px;
+    font-size: 40px;
     font-weight:  bold;
-    font-family: 'Open Sans', 'monospace' , 'san-serif';
+    font-family:  'Open Sans' ;
     
 }
 
