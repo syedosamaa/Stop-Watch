@@ -1,0 +1,137 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(72, 70, 70);
+    
+}
+
+.stop-watch{
+    border: 15px solid whitesmoke;
+    height: 250px;
+    width:250px;
+    margin: auto;
+    border-radius: 150px;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.top-div1{
+    background-color: whitesmoke;
+    height:12px;
+    width:28px;
+    position: absolute;
+    left: 100px;
+    top:-34px;
+
+}
+
+.top-div1:before{
+    content: "";
+    background-color: whitesmoke;
+    border-top-left-radius:8px ;
+    border-top-right-radius:8px ;
+    height: 22px;
+    width:48px;
+    position: absolute;
+    bottom:12px;
+    left:-10px;
+
+}
+
+.top-div2{
+    background-color: whitesmoke;
+    height:20px;
+    width:27px;
+    position: absolute;
+    left:198px;
+    bottom:195px;
+    transform: rotate(45deg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.top-div3{
+    background-color: whitesmoke;
+    height:20px;
+    width:27px;
+    position: absolute;
+    right:198px;
+    bottom:195px;
+    transform: rotate(-45deg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+
+.display-section{
+    background-color: whitesmoke;
+    height: 210px;
+    width:210px;
+    border-radius: 150px;
+    position: absolute;
+    left:5px;
+    top:5px;
+} 
+
+span{
+    position:absolute;
+    top:85px;
+    left:24px;
+    font-size: 45px;
+    font-weight:  bold;
+    font-family: 'Open Sans', 'monospace' , 'san-serif';
+    
+}
+
+.btns{
+ margin-top : 270px ;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap:22px;
+   
+}
+
+#reset{
+padding: 10px 15px;
+border-radius: 7px;
+border: none;
+font-size: 14px;
+font-weight: bold;
+background-color: rgba(234, 48, 19, 0.843);
+color: white;
+
+}
+
+#start{
+ padding: 10px 15px;
+border-radius: 7px;
+border: none;
+font-size: 14px;
+font-weight: bold;
+background-color: rgba(13, 236, 98, 0.756);
+color: white;
+}
+
+#pause{
+padding: 10px 15px;
+border-radius: 7px;
+border: none;
+font-size: 14px;
+font-weight: bold;
+background-color: rgb(237, 94, 18);
+color: white;
+}
