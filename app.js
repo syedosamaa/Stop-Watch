@@ -37,8 +37,6 @@ function showTime(){
           return;
         }
 
-    }
-
      timer = setInterval(function(){
 
         seconds++;
@@ -54,8 +52,9 @@ function showTime(){
      
         showTime();
 
-} , 1000)
+ } , 1000)   
 
+  }
 
 function pauseTime(){
     clearInterval(timer);
